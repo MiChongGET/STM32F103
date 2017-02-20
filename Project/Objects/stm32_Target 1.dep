@@ -7,11 +7,10 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-F (..\User\src\main.c)(0x58AAB818)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\User\src\main.c)(0x58AAE06B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)

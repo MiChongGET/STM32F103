@@ -1767,9 +1767,9 @@
       </Doc>
       <Doc>
         <Name>..\User\src\main.c</Name>
-        <ColumnNumber>22</ColumnNumber>
+        <ColumnNumber>7</ColumnNumber>
         <TopLine>1</TopLine>
-        <CurrentLine>14</CurrentLine>
+        <CurrentLine>20</CurrentLine>
         <Folding>0</Folding>
         <ContractedFolders></ContractedFolders>
         <PaneID>0</PaneID>
