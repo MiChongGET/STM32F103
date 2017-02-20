@@ -1,0 +1,17 @@
+Dependencies for Project 'stm32', Target 'Target 1': (DO NOT MODIFY !)
+F (..\CMSIS\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x--pd "__UVISION_VERSION SETA 521"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\CMSIS\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x570F4548)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+F (..\User\src\main.c)(0x58AAA8F9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x570F4548)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
