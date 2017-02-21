@@ -36,14 +36,30 @@ compiling main.c...
   void LED_LS();
 ..\User\inc\led.h(10): warning:  #1-D: last line of file ends without a newline
   #endif
-..\User\src\main.c(20): warning:  #1-D: last line of file ends without a newline
+..\User\inc\beep.h(4): warning:  #1295-D: Deprecated declaration BEEN - give arg types
+  void BEEN();
+..\User\inc\beep.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\inc\key.h(3): warning:  #1295-D: Deprecated declaration KEY - give arg types
+  void KEY();
+..\User\inc\key.h(4): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\main.c(29): warning:  #1-D: last line of file ends without a newline
   	
-..\User\src\main.c: 5 warnings, 0 errors
+..\User\src\main.c: 9 warnings, 0 errors
+compiling key.c...
+..\User\inc\key.h(3): warning:  #1295-D: Deprecated declaration KEY - give arg types
+  void KEY();
+..\User\inc\key.h(4): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\src\key.c(10): warning:  #1-D: last line of file ends without a newline
+  	}
+..\User\src\key.c: 3 warnings, 0 errors
 linking...
-Program Size: Code=1164 RO-data=320 RW-data=0 ZI-data=1632  
+Program Size: Code=892 RO-data=320 RW-data=0 ZI-data=1632  
 FromELF: creating hex file...
-".\Objects\stm32.axf" - 0 Error(s), 5 Warning(s).
-Build Time Elapsed:  00:00:04
+".\Objects\stm32.axf" - 0 Error(s), 12 Warning(s).
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>

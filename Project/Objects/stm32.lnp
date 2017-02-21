@@ -3,6 +3,8 @@
 ".\objects\system_stm32f10x.o"
 ".\objects\main.o"
 ".\objects\led.o"
+".\objects\beep.o"
+".\objects\key.o"
 --strict --scatter ".\Objects\stm32.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

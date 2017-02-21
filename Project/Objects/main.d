@@ -6,3 +6,5 @@
 .\objects\main.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
 .\objects\main.o: ..\CMSIS\system_stm32f10x.h
 .\objects\main.o: ..\User\inc\led.h
+.\objects\main.o: ..\User\inc\beep.h
+.\objects\main.o: ..\User\inc\key.h

@@ -443,6 +443,11 @@
               <FileType>1</FileType>
               <FilePath>..\User\src\led.c</FilePath>
             </File>
+            <File>
+              <FileName>beep.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\src\beep.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
