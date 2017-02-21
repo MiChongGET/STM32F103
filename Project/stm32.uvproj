@@ -438,6 +438,11 @@
               <FileType>1</FileType>
               <FilePath>..\User\src\main.c</FilePath>
             </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\src\led.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

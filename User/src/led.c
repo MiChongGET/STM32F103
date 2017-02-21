@@ -15,7 +15,7 @@ void Led_init(){
 		//清除PB5的初始值
 		GPIOB->CRL &= ~(0xf<<20);
 		//配置PB5为 推挽输出
-		GPIOB->CRL |= (0X3<<20);
+		GPIOB->CRL |=  (0X3<<20);
 		//配置端口输出寄存器
 		
 		//清除PE5的初始值
@@ -79,11 +79,11 @@ void Led_init(){
 }
 
 //呼吸灯
-void LED_HX(char num,int lang)
+void LED_HX(int lang)
 {
-	int i,j;
-	for(i=0;i<num;i++)
-	{
+	int j;
+	
+		//最暗到最亮
 		for(j=0;j<lang;j++)
 		{
 			GPIOB->ODR &=~(1<<5);
@@ -105,6 +105,7 @@ void LED_HX(char num,int lang)
 			GPIOA->ODR &=~(1<<6);
 		  delay(500000);
 		
+		//最亮到最暗
 		for(j=0;j<lang;j++)
 		{
 			GPIOB->ODR &=~(1<<5);
@@ -124,4 +125,4 @@ void LED_HX(char num,int lang)
 			GPIOA->ODR |=(1<<6);
 		  delay(500000);
 }
-}
+

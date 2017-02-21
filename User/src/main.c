@@ -13,7 +13,7 @@ int main()
 		
 		//ºôÎüµÆ
 		while(1){
-		LED_HX(3,1000);
+		LED_HX(4000);
 		}
 	}
 
