@@ -77,3 +77,51 @@ void Led_init(){
 		delay(500000);	
 	}
 }
+
+//ºôÎüµÆ
+void LED_HX(char num,int lang)
+{
+	int i,j;
+	for(i=0;i<num;i++)
+	{
+		for(j=0;j<lang;j++)
+		{
+			GPIOB->ODR &=~(1<<5);
+			GPIOE->ODR &=~(1<<5);		
+			GPIOA->ODR &=~(1<<5);		
+			GPIOA->ODR &=~(1<<6);
+			delay(j);
+			
+			GPIOB->ODR |=(1<<5);
+			GPIOE->ODR |=(1<<5);		
+			GPIOA->ODR |=(1<<5);		
+			GPIOA->ODR |=(1<<6);
+			delay(lang-j);
+		}
+	
+			GPIOB->ODR &=~(1<<5);
+			GPIOE->ODR &=~(1<<5);		
+			GPIOA->ODR &=~(1<<5);		
+			GPIOA->ODR &=~(1<<6);
+		  delay(500000);
+		
+		for(j=0;j<lang;j++)
+		{
+			GPIOB->ODR &=~(1<<5);
+			GPIOE->ODR &=~(1<<5);		
+			GPIOA->ODR &=~(1<<5);		
+			GPIOA->ODR &=~(1<<6);
+			delay(lang-j);
+			GPIOB->ODR |=(1<<5);
+			GPIOE->ODR |=(1<<5);		
+			GPIOA->ODR |=(1<<5);		
+			GPIOA->ODR |=(1<<6);
+			delay(j);
+	}
+	    GPIOB->ODR |=(1<<5);
+			GPIOE->ODR |=(1<<5);		
+			GPIOA->ODR |=(1<<5);		
+			GPIOA->ODR |=(1<<6);
+		  delay(500000);
+}
+}

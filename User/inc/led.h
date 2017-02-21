@@ -6,5 +6,5 @@ void Led_init();
 void LED_SS();
 void LED_LS();
 void delay(int time);
-
+void LED_HX(char num,int lang);
 #endif

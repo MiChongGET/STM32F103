@@ -9,7 +9,12 @@ int main()
 		//LED_SS();
 		
 		//Á÷Ë®µÆ
-		LED_LS();
+		//LED_LS();
+		
+		//ºôÎüµÆ
+		while(1){
+		LED_HX(3,1000);
+		}
 	}
 
 	
