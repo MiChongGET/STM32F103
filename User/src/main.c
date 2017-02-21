@@ -4,8 +4,9 @@
 #include "key.h"
 int main()
 	{
+		int key_value;
 		//´ò¿ªÊ±ÖÓ
-		//Led_init();
+		Led_init();
 		//ÉÁË¸
 		//LED_SS();
 		
@@ -18,11 +19,18 @@ int main()
 		//}
 		
 		//BEEN();
+	
 		KEY();
+		
 		while(1){
-			if((GPIOA->IDR &(1<<0))==0){
-				LED_LS();
-			}
+			
+				key_value = Get_key_value();
+				switch(key_value){
+					case 1:LED_HX(5000);break;
+					case 2:LED_LS(); break;
+					case 3:LED_SS(); break;
+					case 4:BEEP(); break;
+				}
 		}
 	}
 

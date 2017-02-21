@@ -6,3 +6,4 @@
 .\objects\beep.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
 .\objects\beep.o: ..\CMSIS\system_stm32f10x.h
 .\objects\beep.o: ..\User\inc\beep.h
+.\objects\beep.o: ..\User\inc\key.h

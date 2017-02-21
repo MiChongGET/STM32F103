@@ -27,39 +27,25 @@ Project File Date:  02/21/2017
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-compiling main.c...
+compiling led.c...
 ..\User\inc\led.h(5): warning:  #1295-D: Deprecated declaration Led_init - give arg types
   void Led_init();
 ..\User\inc\led.h(6): warning:  #1295-D: Deprecated declaration LED_SS - give arg types
   void LED_SS();
 ..\User\inc\led.h(7): warning:  #1295-D: Deprecated declaration LED_LS - give arg types
   void LED_LS();
-..\User\inc\led.h(10): warning:  #1-D: last line of file ends without a newline
+..\User\inc\led.h(10): warning:  #1295-D: Deprecated declaration LED_close - give arg types
+  void LED_close();
+..\User\inc\led.h(11): warning:  #1-D: last line of file ends without a newline
   #endif
-..\User\inc\beep.h(4): warning:  #1295-D: Deprecated declaration BEEN - give arg types
-  void BEEN();
-..\User\inc\beep.h(7): warning:  #1-D: last line of file ends without a newline
+..\User\inc\key.h(9): warning:  #1-D: last line of file ends without a newline
   #endif
-..\User\inc\key.h(3): warning:  #1295-D: Deprecated declaration KEY - give arg types
-  void KEY();
-..\User\inc\key.h(4): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\User\src\main.c(29): warning:  #1-D: last line of file ends without a newline
-  	
-..\User\src\main.c: 9 warnings, 0 errors
-compiling key.c...
-..\User\inc\key.h(3): warning:  #1295-D: Deprecated declaration KEY - give arg types
-  void KEY();
-..\User\inc\key.h(4): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\User\src\key.c(10): warning:  #1-D: last line of file ends without a newline
-  	}
-..\User\src\key.c: 3 warnings, 0 errors
+..\User\src\led.c: 6 warnings, 0 errors
 linking...
-Program Size: Code=892 RO-data=320 RW-data=0 ZI-data=1632  
+Program Size: Code=2156 RO-data=336 RW-data=4 ZI-data=1636  
 FromELF: creating hex file...
-".\Objects\stm32.axf" - 0 Error(s), 12 Warning(s).
-Build Time Elapsed:  00:00:05
+".\Objects\stm32.axf" - 0 Error(s), 6 Warning(s).
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

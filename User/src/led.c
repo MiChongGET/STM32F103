@@ -1,6 +1,6 @@
 #include "stm32f10x.h"
 #include "led.h"
-
+#include "key.h"
 void delay(int time){
 	while(time--);
 }
@@ -35,9 +35,12 @@ void Led_init(){
 		
 	}
 
+
+	
 	//LED闪烁
 	void LED_SS(){
 	while(1){
+		
 		//灯全灭
 		GPIOB->ODR |= (1<<5);
 		GPIOE->ODR |= (1<<5);
@@ -52,13 +55,17 @@ void Led_init(){
 		GPIOA->ODR &= ~(1<<6);
 			
 		delay(500000);
+		//如果其他按键按下
+		if(KEY_LEFT!=0||KEY_UP==0||KEY_RIGTH==0){
+			break;
 		}
-	
+		}
 	}
 
 	//流水灯
 	void LED_LS(){
 		while(1){
+		
 		GPIOB->ODR |= (1<<5);
 			delay(500000);
 		GPIOB->ODR &= ~(1<<5);
@@ -75,6 +82,10 @@ void Led_init(){
 			delay(500000);
 		GPIOA->ODR &= ~(1<<6);	
 		delay(500000);	
+				//如果其他按键按下
+		if(KEY_UP==0||KEY_DOWN==0||KEY_RIGTH==0){
+			break;
+		}
 	}
 }
 
@@ -82,7 +93,8 @@ void Led_init(){
 void LED_HX(int lang)
 {
 	int j;
-	
+	while(1){
+		
 		//最暗到最亮
 		for(j=0;j<lang;j++)
 		{
@@ -97,6 +109,10 @@ void LED_HX(int lang)
 			GPIOA->ODR |=(1<<5);		
 			GPIOA->ODR |=(1<<6);
 			delay(lang-j);
+			//如果其他按键按下
+		if(KEY_LEFT!=0||KEY_DOWN==0||KEY_RIGTH==0){
+			break;
+		}
 		}
 	
 			GPIOB->ODR &=~(1<<5);
@@ -124,5 +140,12 @@ void LED_HX(int lang)
 			GPIOA->ODR |=(1<<5);		
 			GPIOA->ODR |=(1<<6);
 		  delay(500000);
+		//如果其他按键按下
+		if(KEY_LEFT!=0||KEY_UP==0||KEY_RIGTH==0){
+			break;
+		}
+	
+	}
+	
 }
 

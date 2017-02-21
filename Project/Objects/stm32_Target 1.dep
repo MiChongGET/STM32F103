@@ -7,25 +7,26 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-F (..\User\src\main.c)(0x58ABF00E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\User\src\main.c)(0x58AC5F37)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\User\inc\led.h)(0x58ABAE82)
+I (..\User\inc\led.h)(0x58AC5A2F)
 I (..\User\inc\beep.h)(0x58ABE580)
-I (..\User\inc\key.h)(0x58ABEFD3)
-F (..\User\src\led.c)(0x58ABB350)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\User\inc\key.h)(0x58AC5D12)
+F (..\User\src\led.c)(0x58AC6306)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
 I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\User\inc\led.h)(0x58ABAE82)
-F (..\User\src\beep.c)(0x58ABE858)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (..\User\inc\led.h)(0x58AC5A2F)
+I (..\User\inc\key.h)(0x58AC5D12)
+F (..\User\src\beep.c)(0x58AC625F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
 I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -33,11 +34,12 @@ I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
 I (..\User\inc\beep.h)(0x58ABE580)
-F (..\User\src\key.c)(0x58ABEF13)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\User\inc\key.h)(0x58AC5D12)
+F (..\User\src\key.c)(0x58AC605A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F10x-D__UVISION_VERSION="521" -DSTM32F10X_HD-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
 I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x570F4548)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F4548)
 I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F4548)
 I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
-I (..\User\inc\key.h)(0x58ABEFD3)
+I (..\User\inc\key.h)(0x58AC5D12)
