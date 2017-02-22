@@ -5,6 +5,7 @@
 ".\objects\led.o"
 ".\objects\beep.o"
 ".\objects\key.o"
+".\objects\usart1.o"
 --strict --scatter ".\Objects\stm32.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

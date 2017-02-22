@@ -453,6 +453,11 @@
               <FileType>1</FileType>
               <FilePath>..\User\src\key.c</FilePath>
             </File>
+            <File>
+              <FileName>usart1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\src\usart1.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

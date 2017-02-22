@@ -8,3 +8,5 @@
 .\objects\main.o: ..\User\inc\led.h
 .\objects\main.o: ..\User\inc\beep.h
 .\objects\main.o: ..\User\inc\key.h
+.\objects\main.o: ..\User\inc\usart1.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
